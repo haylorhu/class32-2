@@ -1,0 +1,38 @@
+*{margin:0;padding:0;}
+
+
+.window{
+  width: 1680px;
+  height: 580px;
+  margin: 0;
+  overflow: hidden;
+}
+.images{
+  display: inline-block;
+  transition: all 1s;
+}
+.images > img{
+  width: 100%;
+}
+.nav{
+  background: linear-gradient(to bottom, transparent 0%,rgba(255,255,255,0.8) 25%,rgba(255,255,255,0.8) 75%,transparent 100%);
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+button{
+  color: black;
+  margin:20px;
+  padding-top: 20px;
+  line-height: 100px;
+  font-size: 35px;
+  display: block;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+button:hover{
+  color: #ff6428
+}
